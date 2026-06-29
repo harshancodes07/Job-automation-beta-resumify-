@@ -1,0 +1,22 @@
+# Secrets — never copy into the image
+.env
+
+# Local temp / processing files
+.tmp/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Frontend deps & local build (rebuilt inside the image)
+frontend/node_modules/
+frontend/dist/
+
+# Git & OS
+.git/
+.gitignore
+.DS_Store
+
+# Docs / planning
+*.md
